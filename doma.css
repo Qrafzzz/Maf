@@ -1,0 +1,107 @@
+*
+{
+	margin: auto;
+	padding: auto;
+}
+.header{
+	border:1px solid black;
+	height: 150px;
+	display: flex;
+	background-color: white;
+}
+.header a
+{
+	color:black;
+	text-decoration: none;
+}
+.select
+{
+	text-align: center;
+}
+.filter
+{
+	margin-top: 10px;
+
+	border:1px solid black;
+}
+.house
+{
+	display: flex;
+}
+.house_examples
+{
+	margin-top: 10px;
+	border:1px solid black;
+	height: 300px;
+	width: 500px;
+}
+.house_img
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 300px;
+	width: 500px;
+	border:1px solid black;
+}
+.house_title 
+{	
+	margin-bottom: 10px;
+	margin-top: 10px;
+ 	height: 300px;
+ 	width: 500px;
+ 	border:1px solid black;
+}
+/*АВТОРИЗАЦИЯ*/
+.auth_name
+{
+	border: 1px solid black;
+
+}
+.auth_examples
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 20pt;
+	text-align: center;
+}
+.auth
+{
+	display: flex;
+}
+.authorization,.registration
+{
+	border: 1px solid black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 500px;
+	height: 300px;
+
+}
+/*ФУТЕР*/
+.footer
+{
+	height: 200px;
+	text-align: center;
+}
+.name_company
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.footer_name,.seti
+{
+	display: flex;
+}
+.footer_examples
+{
+	border: 1px solid black;
+	margin-top: 30px;
+	height: 20px;
+	width: 60px;
+	text-align: center;
+}
+.copyright
+{
+	margin-top: 30px;
+}

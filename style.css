@@ -1,0 +1,297 @@
+*
+{
+	margin: auto;
+	padding: auto;
+}
+/*ДОМА*/
+.our_homes
+{
+	font-size: 25pt;
+	padding-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+.house_rooms
+{
+	background-color: #2d2f35;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.examples_rooms
+{
+	display: flex;
+	margin-bottom: 40px;
+	height: 300px;
+	width: 900px;
+}
+.examples_img
+{
+	width: 100%;
+	margin-left: 0px;
+}
+.examples_img img
+{
+	width: 100%;
+	height: 100%;
+}
+.examples_house_name
+{
+    color: white;
+    font-size: 20pt;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.examples_house_text
+{
+	color: white;
+	font-size: 15pt;
+}
+.look_rooms
+{
+	width: 250px;
+	height: 30px;
+	color: white;
+	margin-top:  30px;
+}
+.look_text
+{
+	padding-top: 7px;
+}
+.examples_house
+{
+	background-color: #1e2025;
+	height: 1500px;
+	font-family: 'CenturyGothic';
+}
+
+/*НОВОСТИ*/
+.house_news
+{
+	background-color: #1e2025;
+	margin-top:  1px;
+	font-family: 'CenturyGothic';
+	color: white;
+}
+.news_name_text
+{
+	font-size: 16pt;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.news_data
+{
+	padding-top: 20px;
+}
+.news_name
+{
+	padding-top:  40px;
+	font-size: 25pt;
+	margin-bottom: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+.latest_news
+{
+	display: flex;
+}
+.news
+{
+	width: 250px;
+	height: 500px;
+}
+
+/*ИПОТЕКА*/
+.mortgage
+{
+	height: 700px;
+    background-color: #1e2025;
+    font-family: 'CenturyGothic';
+    color: white;
+}
+.mortgage_name
+{
+	text-align: center;
+	padding-top: 40px;
+	font-size: 25pt;
+	font-weight: bold;
+}
+.mortgage_name1
+{
+	text-align: center;
+	font-size: 15pt;
+	padding-top: 20px;
+}
+.mortagage_payment
+{
+	display: flex;
+	margin-top: 50px;
+}
+.mortgage_text
+{
+	padding-top: 10px;
+}
+.mortgage_photo,.mortgage_examples
+{
+    width: 500px;
+    height: 500px;
+    font-size: 17pt;
+}
+
+/*ОТЗЫВЫ*/
+.reviews
+{
+	background-color: #2d2f35;
+	margin-top: 1px;
+	font-family: 'CenturyGothic';
+    color: white;
+}
+.reviews_name
+{
+	text-align: center;
+	font-size: 25pt;
+	padding-top:  40px;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+.reviews_client
+{
+	display: flex;
+	padding-bottom:  60px;
+}
+.reviews_block
+{
+	border: 2px solid white;
+	width: 70%;
+	height: 200px;
+	display: flex;
+}
+
+/*КОНТАКТНЫЕ ДАННЫЕ*/
+.contacts
+{
+	display: flex;
+	background-color: #393939;
+	height: 400px;
+	font-family: 'CenturyGothic';
+    color: white;
+}
+.contacts_name
+{
+	width: 50%;
+	height: 100%;
+	background-color: #1e2025;
+	margin-left: 0px;
+	text-align: center;
+}
+.contacts_connection
+{
+	font-weight: bold;
+	font-size: 25pt;
+	padding-bottom: 60px;
+	padding-top: 20px;
+}
+.contacts_data
+{
+	font-size: 17pt;
+	padding-bottom: 20px;
+}
+.contacts_examples
+{
+	display: flex;
+	height: 300px;
+	width: 80%;
+}
+.contacts_photo
+{
+	height: 100%;
+	width: 50%;
+}
+
+/*АВТОРИЗАЦИЯ*/
+.auth_name
+{
+	border: 1px solid black;
+
+}
+.auth_examples
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 20pt;
+	text-align: center;
+}
+.auth
+{
+	display: flex;
+}
+.authorization,.registration
+{
+	border: 1px solid black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 500px;
+	height: 300px;
+
+}
+/*ФУТЕР*/
+.footer
+{
+	height: 300px;
+	text-align: center;
+	background-color: #2d2f35;
+	font-family: 'CenturyGothic';
+    color: white;
+}
+
+.name_company
+{
+	padding-top:  20px;
+	margin-bottom: 20px;
+	font-size: 25pt;
+	font-weight: bold;
+}
+.footer_link
+{
+	font-size: 15pt;
+	font-weight: bold;
+}
+.footer_name,.seti
+{
+	display: flex;
+}
+.footer_examples
+{
+	margin-top: 30px;
+	height: 20px;
+	width: 60px;
+	text-align: center;
+	padding-left: 10px;
+}
+.footer_name
+{
+	padding-top: 20px;
+}
+.footer_name a
+{
+	color:white;
+	text-decoration: none;
+}
+.copyright
+{
+	margin-top: 30px;
+}
+
+
+
+
+
+@font-face {
+	font-family: 'CenturyGothic';
+	src: local('CenturyGothic'),
+	url(fonts/CenturyGothic.ttf);
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="image/x-icon" rel="shortcut icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Клиенты</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="admin.css">
+</head>
+<body>
+<!-- ШАПКА САЙТА -->
+    <div class="header">
+        <div><img src="img/logo.png" width="75%" height="75%"></div>
+        <div><a href="index.html">Главная</a></div>
+        <div><a href="#our_services"> Услуги</a></div>
+        <div><a href="doma.html">Дома</a></div>
+        <div><a href="kvartiri.html">Квартиры</a></div>
+        <div><a href="#reviews">Отзывы</a></div>
+        <div><a href="#about_us">О нас</a></div>
+        <div><a href="#"> Выход</a></div>
+    </div>
+
+<!-- АДМИН -->  
+<div class="admin">
+    <div class="admin_menu">
+
+    <div><a href="admin_house.html">Дома</a></div>
+    <div><a href="admin_apartments.html">Квартиры</a></div>
+    <div><a href="admin_user.html">Клиенты</a></div>
+    <div><a href="admin_sellers.html">Продавцы</a></div>
+    <div><a href="admin_confirmation.html">Подтверждение</a></div>
+
+    </div>
+
+    <div class="admin_house">
+        <table border="1px" class="admin_house" width="50%">
+
+            <p style="font-size: 15pt; font-weight: bold; text-align: center;">Клиенты</p>
+    <div style="text-align: center; margin: 10px;">
+<p style="text-align: center;">Фильтр</p>
+ <form method="GET">
+    <input style="padding-left: 15%;" type="text" name="search_user"><br>
+    <input type="radio" name="role_sort_user" value="0">Пользователь
+    <input type="radio" name="role_sort_user" value="1">Менеджер
+    <input type="radio" name="role_sort_user" value="2">Администратор<br>
+    <input type="submit" name="send_search_user" value="Поиск"><br>
+</form>
+    </div>
+    <tr>
+        <td>"№ п/п"</td>
+        <td>Логин</td>
+        <td>Email</td>
+        <td>Фамилия</td>
+        <td>Имя</td>
+        <td>Роль</td>
+        <td colspan="2">Действия</td>
+        <td>Подробнее</td>
+    </tr>
+    <tr>
+        <td>"1"</td>
+        <td>Логин</td>
+        <td>Email</td>
+        <td>Фамилия</td>
+        <td>Имя</td>
+        <td>Админ</td>
+        <td>Удалить</td>
+        <td>Изменить</td>
+        <td>Подробнее</td>
+    </tr>
+    <tr>
+        <td>"2"</td>
+        <td>Логин</td>
+        <td>Email</td>
+        <td>Фамилия</td>
+        <td>Имя</td>
+        <td>Менеджер</td>
+        <td>Удалить</td>
+        <td>Изменить</td>
+        <td>Подробнее</td>
+    </tr>
+    <tr>
+        <td>"3"</td>
+        <td>Логин</td>
+        <td>Email</td>
+        <td>Фамилия</td>
+        <td>Имя</td>
+        <td>Пользователь</td>
+        <td>Удалить</td>
+        <td>Изменить</td>
+        <td>Подробнее</td>
+    </tr>
+</table><br>
+<p style="text-align: center;">Добавить пользователя</p><br>
+<form style="text-align: center;" method="POST">
+        <label for="login">Введите логин</label><br>
+        <input type="text" name="login"><br>
+        <label for="email">Введите Email</label><br>
+        <input type="email" name="email"><br>
+        <label for="surname">Введите фамилию</label><br>
+        <input type="text" name="surname"><br>
+        <label for="username">Введите имя</label><br>
+        <input type="text" name="username"><br>
+        <label for="password">Введите пароль</label><br>
+        <input type="password" name="password"><br>
+        <input type="submit" name="reg" value="Регистрация">
+    </form>
+    </div>
+</div>
+
+<!-- ФУТЕР -->
+<div class="footer">
+    <div class="name_company">"РУМС"</div>
+
+    <div class="footer_name">
+        <div><a href="index.html">Главная</a></div>
+        <div><a href="#our_services"> Услуги</a></div>
+        <div><a href="doma.html">Дома</a></div>
+        <div><a href="kvartiri.html">Квартиры</a></div>
+        <div><a href="#reviews">Отзывы</a></div>
+        <div><a href="#about_us">О нас</a></div>
+    </div>
+
+    <div class="seti">
+        <div class="footer_examples">vk</div>
+        <div class="footer_examples">twitter</div>
+        <div class="footer_examples">facebook</div>
+    </div>
+
+    <div class="copyright">Copyright</div>
+</div>
+
+</body>
+</html>

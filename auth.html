@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="image/x-icon" rel="shortcut icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Румс</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+<!-- ШАПКА САЙТА -->
+    <div class="header">
+        <div><a href="index.html"><img src="img/logo.png" width="75%" height="75%"></a></div>
+        <div><a href="index.html">Главная</a></div>
+        <div><a href="doma.html">Дома</a></div>
+        <div><a href="kvartiri.html">Квартиры</a></div>
+        <div>Вход</div>
+    </div>
+
+<div class="auth_name">
+<div class="auth_examples">Зарегистрируйтесь или войдите в учётную запись</div>
+<div class="auth">
+
+	<div class="authorization">
+		<h2 style="text-align: center; margin-bottom: 20px;margin-top: 20px;" >Форма авторизации</h2>
+		<form action="" method="post" name="form_register">
+                <table>
+                    <tbody><tr>
+                        <td> Имя: </td>
+                        <td>
+                            <input type="text" name="first_name" required="required">
+                        </td>
+                    </tr>
+ 
+                    <tr>
+                        <td> Фамилия: </td>
+                        <td>
+                            <input type="text" name="last_name" required="required">
+                        </td>
+                    </tr>
+                    <td colspan="2">
+                            <input type="submit" name="btn_submit_register" value="Войти!">
+                        </td>
+                </tbody></table>
+                </form>
+	</div>
+	<div class="registration">
+		 <div id="form_register">
+            <h2  style="text-align: center; margin-bottom: 20px;margin-top: 20px;" >Форма регистрации</h2>
+ 
+            <form action="" method="post" name="form_register">
+                <table>
+                    <tbody><tr>
+                        <td> Имя: </td>
+                        <td>
+                            <input type="text" name="first_name" required="required">
+                        </td>
+                    </tr>
+ 
+                    <tr>
+                        <td> Фамилия: </td>
+                        <td>
+                            <input type="text" name="last_name" required="required">
+                        </td>
+                    </tr>
+              
+                    <tr>
+                        <td> Email: </td>
+                        <td>
+                            <input type="email" name="email" required="required"><br>
+                            <span id="valid_email_message" class="mesage_error"></span>
+                        </td>
+                    </tr>
+              
+                    <tr>
+                        <td> Пароль: </td>
+                        <td>
+                            <input type="password" name="password" placeholder="минимум 6 символов" required="required"><br>
+                            <span id="valid_password_message" class="mesage_error"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Введите капчу: </td>
+                        <td>
+                            <p>
+                                <img src="captcha.php" alt="Капча" /> <br><br>
+                                <input type="text" name="captcha" placeholder="Проверочный код" required="required">
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" name="btn_submit_register" value="Зарегистрироватся!">
+                        </td>
+                    </tr>
+                </tbody></table>
+            </form>
+        </div>
+	</div>
+</div>
+</div>
+<!-- ФУТЕР -->
+<div class="footer">
+    <div class="name_company">"РУМС"</div>
+
+    <div class="footer_name">
+        <div><a href="index.html">Главная</a></div>
+        <div><a href="#our_services"> Услуги</a></div>
+        <div><a href="doma.html">Дома</a></div>
+        <div><a href="kvartiri.html">Квартиры</a></div>
+        <div><a href="#reviews">Отзывы</a></div>
+        <div><a href="#about_us">О нас</a></div>
+    </div>
+
+    <div class="seti">
+        <div class="footer_examples">vk</div>
+        <div class="footer_examples">twitter</div>
+        <div class="footer_examples">facebook</div>
+    </div>
+
+    <div class="copyright">Copyright</div>
+</div>
+
+
+
+
+
+</div>
+</body>
+</html>
